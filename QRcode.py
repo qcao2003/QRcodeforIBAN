@@ -44,10 +44,10 @@ def generate_iban_qr(iban, amount, currency="EUR", name="", bic="", reference=""
 
 
 # 示例调用
-iban = "DE98100110012448930763"  # 示例 IBAN
-bic = "NTSBDEB1XXX"  # 示例 SWIFT/BIC 代码
+iban = "BE55905357671844"  # 示例 IBAN
+bic = "TRWIBEB1XXX"  # 示例 SWIFT/BIC 代码
 amount = 10  # 支付金额
-name = "Jianbin Cao"  # 收款方名称
+name = "Cui Zhen Wu"  # 收款方名称
 reference = "from fiat24"  # 支付参考
 
 generate_iban_qr(iban, amount, currency="EUR", name=name, bic=bic, reference=reference)
